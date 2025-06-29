@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jeffin Philip | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button onclick="toggleTheme()">🌗 Toggle Theme</button>
+
+  <header>
+    <div class="hero">
+      <img src="profile.jpg" alt="Jeffin" class="profile-pic">
+      <h1>Jeffin Philip</h1>
+      <p>Aspiring Software Developer | Python • SQL • Web • ML</p>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a B.Tech Computer Science graduate passionate about software development and emerging technologies. I enjoy building real-world projects using Python, SQL, and web tools like React and Firebase. My goal is to become a strong contributor to innovative tech teams.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python</li>
+      <li>SQL</li>
+      <li>HTML & CSS</li>
+      <li>ReactJS</li>
+      <li>Django & REST APIs</li>
+      <li>Flutter & Firebase</li>
+      <li>Blockchain (Solidity + Web3.js)</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Blockchain Skill Verifier</strong> – Ethereum-based skill validation using Solidity, MetaMask, Web3.js, and React.</li>
+      <li><strong>RFID Gym Manager</strong> – Automated gym entry system using Flutter, Firebase, and RFID tech.</li>
+      <li><strong>Grocery store application</strong> – A mini grocery store application with Flask backend and HTML frontend.</li>
+    </ul>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <a href="resume.pdf" download>📄 Download My Resume</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: jeffin@example.com</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/jeffinphilip" target="_blank">linkedin.com/in/jeffinphilip</a></p>
+    <p>GitHub: <a href="https://github.com/jeffin-git" target="_blank">github.com/jeffin-git</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Jeffin Philip</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
