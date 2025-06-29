@@ -157,6 +157,32 @@ header {
   transform: scale(1.05);
 }
 
+#intro-panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.6s ease-out, padding 0.4s ease;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 0 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+#intro-panel.show {
+  max-height: 200px;
+  padding: 20px;
+}
+
+#name-heading {
+  color: #00ffff;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#name-heading:hover {
+  color: #4caf50;
+}
+
 .dark-mode button {
   background: #81c784;
 }
