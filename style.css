@@ -118,6 +118,21 @@ education li {
   opacity: 0;
 }
 
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+header {
+  animation: slideDown 1s ease-out forwards;
+}
+
 .dark-mode button {
   background: #81c784;
 }
